@@ -1,0 +1,240 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.35;
+}
+.is-green {
+  color: #2fa729;
+}
+a.is-white {
+  text-decoration: underline;
+}
+a.is-white:hover {
+  color: #FFFBEB;
+}
+.button.is-green {
+  background: #2fa729;
+  color: white;
+  border-color: #2fa729;
+  border-radius: 1em;
+}
+.button.is-green:hover {
+  background: #237e1f;
+  color: white;
+}
+.button.button-right-radius {
+  border-radius: 1em 0 1em 0;
+}
+.button.button-left-radius {
+  border-radius: 0 1em 0 1em;
+}
+.navbar-item .button {
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.va {
+  display: flex;
+  align-items: center;
+}
+.hero,
+.cta {
+  background: url(data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cfilter%20id%3D%22noise%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.875%22%20result%3D%22noise%22%20%2F%3E%3CfeColorMatrix%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.4296875%200%22%20%2F%3E%3C%2Ffilter%3E%3Crect%20filter%3D%22url%28%23noise%29%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22512%22%20height%3D%22512%22%20fill%3D%22transparent%22%20opacity%3D%221%22%20%2F%3E%3C%2Fsvg%3E), linear-gradient(52deg, #42475C 0%, #20222E 71%);
+}
+.cta {
+  min-height: 500px;
+  border-top: 10px solid #2fa729;
+  color: #FFFBEB;
+}
+footer.footer {
+  color: #FFFBEB;
+  background: #1B1918 !important;
+  padding: 1.5rem 0;
+  font-size: 1.25rem;
+}
+footer strong {
+  color: #01A3E3;
+}
+footer a {
+  color: #01A3E3;
+}
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  color: inherit;
+}
+.title {
+  color: inherit;
+  font-weight: 900;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.subtitle {
+  color: inherit;
+  font-size: 1.375rem;
+}
+hr.content-divider {
+  max-width: 75px;
+  height: 5px;
+}
+#parallax-0 {
+  background: url(../bg/adrien-converse-kCrrUx7US04-unsplash.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid #2fa729;
+}
+#parallax-1 {
+  background: url(../img/hero_1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid #2fa729;
+}
+#parallax-1 hr {
+  background: coral;
+}
+#parallax-2 {
+  background: url(../img/hero_2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid #2fa729;
+}
+#parallax-2 hr {
+  background: #01A3E3;
+}
+#parallax-3 {
+  background: url(../img/hero_3.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid #2fa729;
+}
+#parallax-4 {
+  background: url(../img/hero_4.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid #2fa729;
+}
+#parallax-3 hr {
+  background: #01A3E3;
+}
+.label {
+  color: #FFFBEB;
+  font-weight: 400;
+}
+input {
+  background: transparent !important;
+  border: 1px solid #2fa729 !important;
+  color: #FFFBEB !important;
+}
+input::placeholder {
+  color: #FFFBEB !important;
+}
+.is-white {
+  color: #FFFBEB;
+}
+/*.hero .content p,
+.hero .content p span,
+.hero .content p strong,
+.hero .content ul li,
+.hero .content .subtitle {
+  font-size: @font-size-line !important;
+}*/
+.hero .content-block {
+  padding: 18px 20px;
+  border-radius: 4px;
+}
+.logo .first-part {
+  font-size: 1.5rem;
+  font-weight: 900;
+  background: #1B1918;
+  padding: 16px;
+  color: #FFFBEB;
+}
+ul.list-green-bullet li {
+  color: #2fa729;
+  font-size: 1.5rem;
+}
+ul.list-green-bullet li span {
+  color: #1B1918;
+}
+ul.list-green-bullet.is-white li span {
+  color: #FFFBEB;
+}
+ul.list-green-bullet.is-dark li span {
+  color: #1B1918;
+}
+.hero-0 {
+  background: url("../img/hero_0.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
+.hero-0 .column .subheader {
+  font-size: 1.5rem;
+  color: #1B1918;
+}
+.hero-0 .column li {
+  color: #1B1918;
+}
+.hero-0 .column.is-white .title {
+  color: #1B1918;
+}
+.hero-0 .column.is-white .content {
+  margin: 1em;
+}
+.hero-0 .column.is-white .content p,
+.hero-0 .column.is-white .content ul li {
+  color: #1B1918;
+}
+.big-logo-wrapper {
+  margin: 0 0 2em -12.5%;
+}
+.bg-dark {
+  background: #1B1918;
+  color: #FFFBEB;
+}
+.hero-adverse {
+  padding: 2.5rem;
+  border-top: 10px solid #2fa729;
+}
+.s-hero .columns .column .block-wrap {
+  border-radius: 5px;
+  padding: 40px 15px;
+  background: #FFFBEB;
+  border: 2px solid #fff1b8;
+}
+.s-hero .columns .column .block-wrap.block-wrap-right {
+  border-radius: 3em 0 3em 0;
+}
+.s-hero .columns .column .block-wrap.block-wrap-left {
+  border-radius: 0 3em 0 3em;
+}
+@media screen and (min-width: 769px) {
+  .s-hero .columns.-absolute {
+    position: absolute;
+    width: 100%;
+    top: 0;
+  }
+}
+.content ul li {
+  font-size: 1.25rem;
+}
+.content .line-description {
+  font-size: 1.375rem;
+}
+.content .line-composition {
+  font-size: 1.125rem;
+}
+.content .word-composition {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=main.css.map */
