@@ -238,3 +238,97 @@ ul.list-green-bullet.is-dark li span {
   text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */
+/* Footer */
+.footer {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #FFFBEB;
+  background-color: #2E2E2E;
+ }
+
+.footer-container {
+  display: flex;
+  width: 1346px;
+  margin: 0 auto;
+  padding: 45px 0 90px;
+}
+
+/* footer-adress */
+.footer-adress {
+  width: 426px;
+  margin-right: auto;
+}
+
+.footer-adress-title {
+  font-size: 23px;
+  font-weight: 900;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 44px;
+}
+
+.footer-address-text {
+  margin: 0;
+}
+
+/* footer-contacts */
+
+.footer-contacts {
+  width: 426px;
+} 
+
+.footer-contacts-title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 44px;
+}
+
+.footer-contacts-phone {
+  margin: 0;
+}
+
+.footer-contacts-phone-link {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #FFFBEB;
+  text-decoration: none;
+}
+
+.footer-contacts-email {
+  margin: 0;
+}
+
+.footer-contacts-email-link {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #FFFBEB;
+  text-decoration: none;
+}
+
+/* footer-shedule */
+.footer-schedule {
+  width: 426px;
+  margin-left: auto;
+}
+
+.footer-schedule-title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 42px;
+}
+
+.footer-schedule-text {
+  margin: 0;
+}
